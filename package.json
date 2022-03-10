@@ -6,8 +6,16 @@
   "scripts": {
     "start": "node shortUrl"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "shrtfly",
+    "shrtfly package",
+    "shrtfly npm",
+    "shrtfly npm package",
+    "shrtfly shortener",
+    "shrtfly shortener package",
+    "shrtfly shortener npm"
+  ],
+  "author": "Varun Deva",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.0"
