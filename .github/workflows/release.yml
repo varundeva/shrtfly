@@ -7,14 +7,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-        name: 📚Checkout @v2
+      - name: 📚Checkout @v2
       - uses: actions/checkout@v2
-        name: 🟢Setup Node@v2
+      - name: 🟢Setup Node@v2
       - uses: actions/setup-node@v2
         with:
           node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
-        name: 🚀npm ci
+      - name: 🚀npm ci
       - run: npm ci
         name: 🚀npm publish
       - run: npm publish
