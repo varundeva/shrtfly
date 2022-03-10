@@ -5,7 +5,6 @@ on:
       - main
 jobs:
   build:
-    name: 🚀Publish
     runs-on: ubuntu-latest
     steps:
         name: 📚Checkout @v2
