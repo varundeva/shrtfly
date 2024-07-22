@@ -4,7 +4,8 @@
   "description": "Package to create Short Urls with shrtfly.com",
   "main": "shortUrl.js",
   "scripts": {
-    "start": "node shortUrl"
+    "start": "node shortUrl",
+     "test": "jest"
   },
   "keywords": [
     "shrtfly",
@@ -21,7 +22,8 @@
     "axios": "^0.26.0"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "jest": "^29.7.0"
   },
   "repository": {
     "type": "git",
