@@ -1,6 +1,6 @@
 {
   "name": "shrtfly",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package to create Short Urls with shrtfly.com",
   "main": "shortUrl.js",
   "scripts": {
