@@ -22,4 +22,9 @@
     ```
   - Done
 
-
+# To-do
+  - Ad preferences
+  - Your custom alias -> Mainstream is default now.
+     - Mainstream: 1
+     - Adult: 2
+  - Response format -> JSON/TEXT. Currently, JSON is the default. 
